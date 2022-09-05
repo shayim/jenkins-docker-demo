@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose')
-const { compare, hash } = require('bcryptjs')
+const { compare, hash } = require('bcrypt')
 
 const schema = new Schema(
   {
